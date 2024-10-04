@@ -1,0 +1,42 @@
+.job_hunt{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #ffffff;
+  }
+  .job_hunt .social-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .job_hunt .social-row .soc-item {
+    margin: 8px;
+  }
+  .job_hunt .social-row .soc-item a:hover .mbr-iconfont,
+  .job_hunt .social-row .soc-item a:focus .mbr-iconfont {
+    background-color: #f7f7f7;
+  }
+  .job_hunt .social-row .soc-item a .mbr-iconfont {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    font-size: 32px;
+    background-color: #f7f7f7;
+    color: var(--primary-color, #393193);
+    transition: all 0.3s ease-in-out;
+  }
+  .job_hunt .row-links {
+    width: 100%;
+    justify-content: center;
+  }
+  .job_hunt .mbr-section-title {
+    color: #ffffff;
+  }
+  .job_hunt .mbr-section-title,
+  .job_hunt .social-list {
+    color: #000000;
+  }
+  

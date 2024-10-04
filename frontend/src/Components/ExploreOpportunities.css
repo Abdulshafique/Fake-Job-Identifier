@@ -1,0 +1,158 @@
+.explore-opportunities {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: transparent;
+  }
+    .explore-opportunities img,
+    .explore-opportunities .item-img {
+    width: 100%;
+    height: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  @media (max-width: 767px) {
+      .explore-opportunities img,
+      .explore-opportunities .item-img {
+      max-height: 300px;
+    }
+  }
+    .explore-opportunities .item:focus,
+    .explore-opportunities span:focus {
+    outline: none;
+  }
+    .explore-opportunities .item-wrapper {
+    position: relative;
+  }
+    .explore-opportunities .slide-content {
+    position: relative;
+    border-radius: 4px;
+    background: #ffffff;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-flow: column nowrap;
+  }
+  @media (min-width: 768px) {
+      .explore-opportunities .slide-content .item-content {
+      padding: 2.25rem 2.25rem 0;
+    }
+      .explore-opportunities .slide-content .item-footer {
+      padding: 0 2.25rem 2.25rem;
+    }
+  }
+  @media (max-width: 767px) {
+      .explore-opportunities .slide-content .item-content {
+      padding: 1.5rem 1.5rem 0;
+    }
+      .explore-opportunities .slide-content .item-footer {
+      padding: 0 1.5rem 1.5rem;
+    }
+  }
+    .explore-opportunities .mbr-section-btn {
+    margin-top: auto !important;
+  }
+    .explore-opportunities .mbr-section-title {
+    color: #000000;
+  }
+    .explore-opportunities .mbr-text,
+    .explore-opportunities .mbr-section-btn {
+    text-align: left;
+  }
+    .explore-opportunities .item-title {
+    text-align: left;
+  }
+    .explore-opportunities .item-subtitle {
+    text-align: left;
+    color: #000000;
+  }
+    .explore-opportunities .embla__slide {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 370px;
+    max-width: 370px;
+  }
+  @media (max-width: 768px) {
+      .explore-opportunities .embla__slide {
+      min-width: 85%;
+      max-width: initial;
+    }
+  }
+    .explore-opportunities .embla__button--next,
+    .explore-opportunities .embla__button--prev {
+    display: flex;
+  }
+    .explore-opportunities .embla__button {
+    top: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: -1.5rem;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (max-width: 768px) {
+      .explore-opportunities .embla__button {
+      display: none;
+    }
+  }
+    .explore-opportunities .embla__button:disabled {
+    cursor: default;
+    display: none;
+  }
+    .explore-opportunities .embla__button:hover {
+    background: #000;
+    color: rgba(255, 255, 255, 0.5);
+  }
+    .explore-opportunities .embla__button .embla__button--prev {
+    left: 0;
+    margin-left: 2.5rem;
+  }
+    .explore-opportunities .embla__button.embla__button--next {
+    right: 0;
+    margin-right: 2.5rem;
+  }
+  @media (max-width: 767px) {
+      .explore-opportunities .embla__button {
+      top: auto;
+    }
+  }
+    .explore-opportunities .embla {
+    position: relative;
+    width: 100%;
+  }
+    .explore-opportunities .embla__viewport {
+    overflow: hidden;
+    width: 100%;
+  }
+    .explore-opportunities .embla__viewport.is-draggable {
+    cursor: grab;
+  }
+    .explore-opportunities .embla__viewport.is-dragging {
+    cursor: grabbing;
+  }
+    .explore-opportunities .embla__container {
+    display: flex;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  @media (max-width: 768px) {
+      .explore-opportunities .embla__container .embla__slide:first-child {
+      margin-left: 2rem !important;
+    }
+      .explore-opportunities .embla__container .embla__slide:last-child {
+      margin-right: 2rem !important;
+    }
+  }
+    .explore-opportunities .content-head {
+    max-width: 800px;
+  }

@@ -1,0 +1,44 @@
+.discoverJob {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: transparent;
+  }
+  .discoverJob .mbr-fallback-image.disabled {
+    display: none;
+  }
+  .discoverJob .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .discoverJob .card-wrapper {
+    background: var(--dominant-color, #393193);
+  }
+  @media (max-width: 767px) {
+    .discoverJob .card-wrapper {
+      padding: 1.5rem;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    .discoverJob .card-wrapper {
+      padding: 2.25rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .discoverJob .card-wrapper {
+      padding: 4rem;
+    }
+  }
+  .discoverJob .mbr-text,
+  .discoverJob .mbr-section-btn {
+    color: var(--dominant-text, #ffd7ef);
+  }
+  .discoverJob .card-title,
+  .discoverJob .card-box {
+    text-align: center;
+    color: var(--dominant-text, #ffd7ef);
+  }

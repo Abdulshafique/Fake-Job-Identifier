@@ -1,0 +1,49 @@
+.get_in_touch {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: transparent;
+  }
+  .get_in_touch .mbr-fallback-image.disabled {
+    display: none;
+  }
+  .get_in_touch .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+  }
+  .get_in_touch .row {
+    justify-content: center;
+  }
+  .get_in_touch .item {
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 767px) {
+    .get_in_touch .item {
+      margin-bottom: 1rem;
+    }
+  }
+  .get_in_touch .item .item-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background: #ffffff;
+    padding: 2.25rem;
+  }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .get_in_touch .item .item-wrapper {
+      padding: 2rem 1.5rem;
+    }
+  }
+  @media (max-width: 767px) {
+    .get_in_touch .item .item-wrapper {
+      padding: 2rem 1.5rem;
+    }
+  }
+  .get_in_touch .content-head {
+    max-width: 800px;
+  }
+  
